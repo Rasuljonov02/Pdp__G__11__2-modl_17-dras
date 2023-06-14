@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+body {
+  background: rgba(255, 255, 255, 0.867);
+  padding: 0 30px;
+}
+.fuutr span img {
+  width: 15px;
+  padding: 5px;
+  border-radius: 50%;
+  background-color: rgb(172, 179, 184);
+}
+.fuutr {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.fuutr span {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.fuutr span p {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  background-color: rgb(204, 222, 222);
+  padding: 5px;
+  border-radius: 30px;
+}
+.linklar {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  background-color: rgb(237, 231, 224);
+  box-sizing: border-box;
+  padding: 10px 20px;
+}
+a {
+  text-decoration: none;
+}
+.ishka {
+  width: 100%;
+  height: 1000px;
+  gap: 1%;
+  margin-top: 30px;
+  display: grid;
+
+  grid-template-columns: 69% 30%;
+}
+
+.img {
+  width: 20px;
+}
+.ishkalchap .davlatt {
+  display: flex;
+  gap: 1rem;
+  margin-top: 10px;
+  background-color: rgb(172, 175, 179);
+}
+.ishkalchap .davlatt .a {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.tortalik {
+  display: flex;
+  gap: 1rem;
+  margin-top: 30px;
+}
+.tortalik .kalla {
+  display: flex;
+  gap: 5px;
+  width: 100%;
+  justify-content: space-between;
+}
+.kallaa {
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+  width: 100%;
+  height: 200px;
+
+  justify-content: space-between;
+}
+.kallaa .salom {
+  display: flex;
+  gap: 1rem;
+  /* background-color: antiquewhite; */
+  height: 200px;
+  width: 550px;
+}
+.kallaa h2 {
+  font-size: 17px;
+}
+.tortalik .kalla h2 {
+  font-size: 17px;
+}
+.tortalik .kalla .salom {
+  display: flex;
+  gap: 1rem;
+
+  height: 130px;
+}
+.salom h2 {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.h3 {
+  display: flex;
+  box-sizing: border-box;
+  padding: 40px;
+  justify-content: space-between;
+}
+.tugado {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-evenly;
+}
+.hellotashken {
+  width: 230px;
+  margin-top: 20px;
+}
+.hellotashken .m {
+  height: 150px;
+}
+.oo {
+  padding: 20px;
+  display: flex;
+  gap: 1rem;
+}
+.oo p {
+  background-color: rgb(241, 241, 241);
+  width: 7px;
+  height: 7px;
+  border: 10px solid black;
+  border-radius: 50%;
+}
+.ynagiliklar {
+}
+.ynagiliklar p {
+  background-color: rgb(64, 68, 71);
+  display: flex;
+  padding: 15px 0;
+  align-items: center;
+  gap: 1rem;
+  width: 280px;
+  border-radius: 0 100px 100px 0;
+}
+.ishkalong {
+  display: flex;
+  flex-direction: column;
+}
+.ishkalong .burchak {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+}
+.ishkalong .ynagiliklar {
+  margin-top: 30px;
+}
+.hot {
+  display: flex;
+  margin-top: 200px;
+  width: 500px;
+  gap: 1rem;
+}
+.hoh2 {
+  display: flex;
+  gap: 1rem;
+}
+.v {
+  height: 235px;
+}
+.hoh1 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.ilo {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-evenly;
+  background-color: rgba(207, 207, 204, 0.309);
+  padding: 20px;
+  height: 500px;
+  position: relative;
+}
+
+.yulo {
+  width: 230px;
+  position: relative;
+  bottom: 50px;
+  right: 50px;
+  z-index: 100;
+}
+.bolo {
+  width: 250px;
+  height: 300px;
+  background-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  padding: 10px;
+  margin-top: 100px;
+  gap: 2rem;
+}
+.bolo p {
+  width: 220px;
+  height: 150px;
+  background-color: blue;
+  position: relative;
+  bottom: 190px;
+  right: 25px;
+}
+.bolo h4 {
+  position: relative;
+  bottom: 100px;
+}
+.opoi {
+  width: 150px;
+  padding: 0 20px;
+}
+.qw {
+  display: flex;
+  gap: 2rem;
+}
+.zxcv {
+  display: flex;
+}
+.fgrvf {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 20px;
+}
+.fgrvf p {
+  width: 5px;
+  height: 5px;
+
+  border: 7px solid black;
+  border-radius: 50%;
+  background-color: aliceblue;
+}
+.biji {
+  width: 400px;
+}
+.lenova {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 50px;
+}
+.bobi {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.maqolalar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.maqolalar a {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.zildinf {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  margin-top: 100px;
+}
+.zildinf h2,
+h5 {
+  display: flex;
+  align-items: center;
+}
+.sizwe {
+  width: 100%;
+}
+.loikuyjhgtrfd {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding: 50px;
+  background-color: rgb(210, 216, 222);
+}
+.okjnkjnln {
+  width: 200px;
+  background-color: rgb(255, 255, 255);
+}
+
+.okjnkjnln div {
+  padding: 10px;
+}

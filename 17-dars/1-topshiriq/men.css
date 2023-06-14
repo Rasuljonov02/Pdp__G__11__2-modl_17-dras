@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+.tepa {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  /* justify-content: space-evenly; */
+  gap: 2rem;
+  justify-content: center;
+}
+.tepa .icom {
+  position: relative;
+  left: 65px;
+}
+a {
+  text-decoration: none;
+}
+.tepa input {
+  width: 300px;
+  border: none;
+  padding: 10px 60px;
+  background: #1b1a21;
+  border-radius: 10px;
+}
+body {
+  background: #24252d;
+}
+.tepa .a {
+  color: #737373;
+}
+.aa {
+  padding: 8px 30px;
+  background: linear-gradient(135deg, #ff00b8 7.81%, #ff005c 100%);
+  border-radius: 10px;
+  color: white;
+}
+.aaa {
+  padding: 8px 30px;
+  border-radius: 10px;
+  border: 1px solid #ff005c;
+  color: #ff005c;
+}
+hr {
+  margin-top: 10px;
+  border: 1px solid #3b3d50;
+}
+.footr {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.footr .chapa {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.footr .chapa h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 170%;
+
+  background: linear-gradient(93.8deg, #ff00ae 1.02%, #ff0066 92.85%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.footr span {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.footr span img {
+  padding: 10px;
+  background: #000000;
+  box-shadow: 30px 30px 60px rgba(170, 155, 155, 0.413);
+  border-radius: 38px;
+}
+p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+
+  letter-spacing: 0.02em;
+
+  color: #ffffff;
+}
+.ortaliq {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.ortaliq h1 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.02em;
+
+  background: linear-gradient(135deg, #ff00b8 7.81%, #ff005c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.hoho {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.hoho .elli {
+  background: #202128;
+  border-radius: 20px;
+  width: 200px;
+  height: 250px;
+  padding: 20px;
+  margin-top: 20px;
+}
+.hoho .elli span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.hoho .elli span h3 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.hoho .elli > p {
+  background: linear-gradient(135deg, #ff00b8 7.81%, #ff005c 100%);
+  mix-blend-mode: normal;
+  border-radius: 10px;
+  width: 20px;
+  height: 25px;
+  padding: 10px;
+}
+.kattabox {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.kattabox .ichikbox div {
+  display: flex;
+  justify-content: space-between;
+}
+.kattabox .ichikbox div img {
+  width: 130px;
+  height: 100px;
+}
+.kattabox .ichikbox {
+  padding: 20px;
+  gap: 1rem;
+  background: #202128;
+  margin-top: 30px;
+  border-radius: 40px;
+  height: 400px;
+}
+.kattabox .ichikbox > img {
+  border-radius: 40px;
+}
+.kattabox .ichikbox {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.h {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+.h a {
+  border-radius: 10px;
+  border: 1px solid #ff005c;
+  padding: 8px 20px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  background: linear-gradient(135deg, #ff00b8 7.81%, #ff005c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.tagi {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.tagi span h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+}
+.tagi span input {
+  width: 250px;
+  padding: 10px 20px;
+  background: #1b1a21;
+  border-radius: 10px;
+  border: none;
+}
+.tagi span a {
+  background: linear-gradient(101.12deg, #eb1484 27.35%, #c91c58 99.99%, #c81cc5 100%, #c81cc5 100%);
+  border-radius: 10px;
+  padding: 8px 20px;
+  position: relative;
+  width: 80px;
+  color: white;
+  left: 170px;
+  bottom: 50px;
+}
+.tagi span {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.tagi span h2 {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.kujyh {
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+  justify-content: center;
+}
+.htgt {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.htgt span {
+  display: flex;
+  gap: 1rem;
+}
+.vvvvvvvvv {
+  display: flex;
+  flex-direction: column;
+}
+.hmyjjyhnh {
+  width: 100px;
+}
+.erer {
+  display: flex;
+  justify-content: baseline;
+}
